@@ -1,7 +1,7 @@
 {
   "todos": [
     {
-      "complete": false,
+      "complete": true,
       "editMode": false,
       "title": "Get a new car -- probably a Honda",
       "id": 12
@@ -19,7 +19,7 @@
       "id": 18
     },
     {
-      "complete": true,
+      "complete": false,
       "editMode": false,
       "title": "Buy present for Mom",
       "id": 19
