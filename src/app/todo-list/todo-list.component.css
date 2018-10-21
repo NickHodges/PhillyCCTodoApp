@@ -9,11 +9,12 @@
   align-items: center;
 }
 
-button.delete-todo {
+.delete-todo {
   margin-left: auto;
   width: 25px;
   padding: 0;
   height: 27px;
+  cursor: pointer;
 }
 
 input.checkbox {

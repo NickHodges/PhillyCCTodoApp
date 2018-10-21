@@ -1,13 +1,13 @@
 <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-    <a class="navbar-brand" href="#">My To Do's</a>
-
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" routerLink="">Checklist <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" routerLink="all-tasks">All To Dos</a>
-        <a class="nav-item nav-link" routerLink="about">About</a>
-      </div>
-    </div>
-  </nav>
+  <mat-tab-group>
+    <mat-tab label="Checklist">
+      <app-todo-list></app-todo-list>
+    </mat-tab>
+    <mat-tab label="All Todos">
+      <app-all-tasks [activated]="currentTab == 1"></app-all-tasks>
+    </mat-tab>
+    <mat-tab label="About">
+      <app-about></app-about>
+    </mat-tab>
+  </mat-tab-group>
 </div>

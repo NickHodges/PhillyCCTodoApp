@@ -11,10 +11,12 @@
           <input (click)="makeComplete(todo)" type="checkbox" class="checkbox">
           <span (click)="editTodo(todo)" class="todo-title">
             {{todo.title}}
-            <input #editInput *ngIf="todo.editMode" [value]="todo.title" (keyup.enter)="updateTodo(todo, editInput)" class="edit-todo"
-              type="text">
+            <input #editInput *ngIf="todo.editMode" [value]="todo.title" (keyup.enter)="updateTodo(todo, editInput)"
+              class="edit-todo" type="text">
           </span>
-          <button (click)="removeTodo(todo)" class="btn btn-danger delete-todo">&#x2715;</button>
+          <span class="delete-todo">
+            <mat-icon (click)="removeTodo(todo)" color="warn">highlight_off</mat-icon>
+          </span>
         </li>
       </ul>
     </div>
@@ -24,9 +26,11 @@
       </h2>
       <hr>
       <ul class="list-group">
-        <li *ngFor="let todo of completetodos" class="list-group-item">
-          <span class="todo-title">{{todo.title}}</span>
-          <span (click)="makeIncomplete(todo)" class="incomplete-todo">&#x21a2;</span>
+        <li *ngFor="let task of completetodos" class="list-group-item">
+          <span class="todo-title">{{task.title}}</span>
+          <span class="incomplete-todo">
+            <mat-icon (click)="makeIncomplete(task)" color="primary">arrow_back</mat-icon>
+          </span>
         </li>
       </ul>
     </div>

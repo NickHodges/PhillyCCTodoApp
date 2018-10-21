@@ -14,6 +14,14 @@ import { TodoListComponent } from './todo-list/todo-list.component';
 import { TodoDataService } from './todo-data.service';
 import { AddTodoComponent } from './add-todo/add-todo.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTabsModule } from '@angular/material/tabs';
+import {
+  MatButtonModule,
+  MatCheckboxModule,
+  MatIconModule
+} from '@angular/material';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +36,12 @@ import { AddTodoComponent } from './add-todo/add-todo.component';
     RouterModule.forRoot(routes),
     HttpModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatIconModule,
+    MatTabsModule
   ],
   providers: [TodoDataService],
   bootstrap: [AppComponent]
