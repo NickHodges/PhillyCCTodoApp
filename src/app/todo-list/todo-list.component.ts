@@ -82,4 +82,5 @@ export class TodoListComponent implements OnInit {
       );
       this.incompletetodos[index] = todo;
     });
+  }
 }
