@@ -1,10 +1,10 @@
 <div class="container">
-  <mat-tab-group>
+  <mat-tab-group (selectedTabChange)="onLinkClick($event)">
     <mat-tab label="Checklist">
       <app-todo-list></app-todo-list>
     </mat-tab>
     <mat-tab label="All Todos">
-      <app-all-tasks></app-all-tasks>
+      <app-all-tasks [activated]="currentTab == 1"></app-all-tasks>
     </mat-tab>
     <mat-tab label="About">
       <app-about></app-about>

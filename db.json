@@ -13,16 +13,22 @@
       "id": 15
     },
     {
+      "complete": false,
+      "editMode": false,
+      "title": "Get a trailer hitch",
+      "id": 20
+    },
+    {
       "complete": true,
       "editMode": false,
-      "title": "Feed the dog",
-      "id": 18
+      "title": "Drive Mom to store",
+      "id": 21
     },
     {
       "complete": false,
       "editMode": false,
-      "title": "Buy present for Mom",
-      "id": 19
+      "title": "Talk to Dad about Baseball",
+      "id": 22
     }
   ]
 }

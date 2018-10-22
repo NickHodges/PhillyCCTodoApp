@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatTabChangeEvent } from '@angular/material';
 
 @Component({
   selector: 'app-navbar',
@@ -6,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  constructor() {}
+  currentTab: number;
 
-  ngOnInit() {}
+  constructor() { }
+
+  ngOnInit() { }
+
+  onLinkClick(event: MatTabChangeEvent) {
+    this.currentTab = event.index;
+  }
 }

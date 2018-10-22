@@ -132,3 +132,11 @@
 ### Changes
 * Major changes to HTML and code
 * Update CSS, index.html for material
+
+# OnChange
+
+### Lesson
+* Notice changes to todo items with Material tab sheet
+
+### Changes
+* Add code to see changes when the tabs change
