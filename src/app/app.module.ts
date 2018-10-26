@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { AppComponent } from './app.component';
@@ -21,6 +22,7 @@ import {
   MatCheckboxModule,
   MatIconModule
 } from '@angular/material';
+import { ContactComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import {
     TodoListComponent,
     NavbarComponent,
     AllTasksComponent,
-    AddTodoComponent
+    AddTodoComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +44,8 @@ import {
     MatButtonModule,
     MatCheckboxModule,
     MatIconModule,
-    MatTabsModule
+    MatTabsModule,
+    ReactiveFormsModule
   ],
   providers: [TodoDataService],
   bootstrap: [AppComponent]
