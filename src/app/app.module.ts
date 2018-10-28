@@ -20,9 +20,14 @@ import { MatTabsModule } from '@angular/material/tabs';
 import {
   MatButtonModule,
   MatCheckboxModule,
-  MatIconModule
+  MatIconModule,
+  MatInputModule
 } from '@angular/material';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 import { ContactComponent } from './contact-form/contact-form.component';
+import { EmailInputComponent } from './email-input/email-input.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +37,8 @@ import { ContactComponent } from './contact-form/contact-form.component';
     NavbarComponent,
     AllTasksComponent,
     AddTodoComponent,
-    ContactComponent
+    ContactComponent,
+    EmailInputComponent
   ],
   imports: [
     BrowserModule,
@@ -45,8 +51,11 @@ import { ContactComponent } from './contact-form/contact-form.component';
     MatCheckboxModule,
     MatIconModule,
     MatTabsModule,
+    MatFormFieldModule,
+    MatInputModule,
     ReactiveFormsModule
   ],
+  entryComponents[EmailInputComponent],
   providers: [TodoDataService],
   bootstrap: [AppComponent]
 })
