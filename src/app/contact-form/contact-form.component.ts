@@ -12,9 +12,9 @@ export class ContactComponent {
     this.formModel = fb.group({
       form_name: ['', Validators.required],
       form_lastname: ['', Validators.required],
-      form_email: ['', Validators.required],
+      form_email: ['', [Validators.required, Validators.email]],
       form_phone: ['', Validators.required],
-      form_message: ['', Validators.required]
+      form_message: ['', [Validators.required, Validators.minLength(15)]]
     });
   }
 
