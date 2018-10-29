@@ -7,22 +7,12 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group">
-          <label for="form_name">First Name *</label>
-          <span class="label label-danger" *ngIf="formModel.get('form_name').touched && formModel.get('form_name').hasError('required')">
-            First Name is required
-          </span>
-          <input id="form_name" type="text" class="form-control" placeholder="Please enter your firstname *"
-            formControlName="form_name">
+          <app-first-name></app-first-name>
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <label for="form_lastname">Last Name *</label>
-          <span class="label label-danger" *ngIf="formModel.get('form_lastname').touched && formModel.get('form_lastname').hasError('required')">
-            Last Name is required
-          </span>
-          <input id="form_lastname" type="text" class="form-control" placeholder="Please enter your lastname *"
-            formControlName="form_lastname">
+          <app-last-name></app-last-name>
         </div>
       </div>
     </div>
@@ -39,8 +29,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="form-group">
-          <label for="form_message">Message *</label>
-          <textarea id="form_message" required class="form-control" placeholder="Message *" rows="6" formControlName="form_message"></textarea>
+          <app-message></app-message>
         </div>
       </div>
       <div class="col-md-12">

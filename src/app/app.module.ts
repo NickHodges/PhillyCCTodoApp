@@ -31,6 +31,9 @@ import {
   FormFieldCustomControlComponent,
   TelephoneInputComponent
 } from './telephone-input/telephone-input.component';
+import { FirstNameInputComponent } from './first-name-input/first-name-input.component';
+import { LastNameInputComponent } from './last-name-input/last-name-input.component';
+import { MessageInputComponent } from './message-input/message-input.component';
 
 @NgModule({
   declarations: [
@@ -42,9 +45,12 @@ import {
     AddTodoComponent,
     ContactComponent,
     EmailInputComponent,
+    FirstNameInputComponent,
     TelephoneInputComponent,
     FormFieldCustomControlComponent,
-    TelephoneInputComponent
+    TelephoneInputComponent,
+    LastNameInputComponent,
+    MessageInputComponent
   ],
   imports: [
     BrowserModule,

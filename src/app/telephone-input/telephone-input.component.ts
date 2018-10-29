@@ -133,7 +133,7 @@ export class TelephoneInputComponent
   }
 
   onContainerClick(event: MouseEvent) {
-    if ((event.target as Element).tagName.toLowerCase() != 'input') {
+    if ((event.target as Element).tagName.toLowerCase() !== 'input') {
       this.elRef.nativeElement.querySelector('input')!.focus();
     }
   }
