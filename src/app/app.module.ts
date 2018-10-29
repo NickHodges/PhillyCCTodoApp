@@ -27,10 +27,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 
 import { ContactComponent } from './contact-form/contact-form.component';
 import { EmailInputComponent } from './email-input/email-input.component';
-import {
-  FormFieldCustomControlComponent,
-  TelephoneInputComponent
-} from './telephone-input/telephone-input.component';
+import { TelephoneInputComponent } from './telephone-input/telephone-input.component';
 import { FirstNameInputComponent } from './first-name-input/first-name-input.component';
 import { LastNameInputComponent } from './last-name-input/last-name-input.component';
 import { MessageInputComponent } from './message-input/message-input.component';
@@ -46,8 +43,6 @@ import { MessageInputComponent } from './message-input/message-input.component';
     ContactComponent,
     EmailInputComponent,
     FirstNameInputComponent,
-    TelephoneInputComponent,
-    FormFieldCustomControlComponent,
     TelephoneInputComponent,
     LastNameInputComponent,
     MessageInputComponent
@@ -68,7 +63,6 @@ import { MessageInputComponent } from './message-input/message-input.component';
     ReactiveFormsModule
   ],
   providers: [TodoDataService],
-  entryComponents: [FormFieldCustomControlComponent, TelephoneInputComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
