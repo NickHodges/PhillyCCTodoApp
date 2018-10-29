@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContactFormComponent } from './contact-form.component';
+import { TelephoneInputComponent } from './telephone-input.component';
 
-describe('ContactFormComponent', () => {
-  let component: ContactFormComponent;
-  let fixture: ComponentFixture<ContactFormComponent>;
+describe('TelephoneInputComponent', () => {
+  let component: TelephoneInputComponent;
+  let fixture: ComponentFixture<TelephoneInputComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ContactFormComponent ]
+      declarations: [ TelephoneInputComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ContactFormComponent);
+    fixture = TestBed.createComponent(TelephoneInputComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

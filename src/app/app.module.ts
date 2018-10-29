@@ -27,7 +27,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 
 import { ContactComponent } from './contact-form/contact-form.component';
 import { EmailInputComponent } from './email-input/email-input.component';
-
+import {
+  FormFieldCustomControlComponent,
+  TelephoneInputComponent
+} from './telephone-input/telephone-input.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { EmailInputComponent } from './email-input/email-input.component';
     AllTasksComponent,
     AddTodoComponent,
     ContactComponent,
-    EmailInputComponent
+    EmailInputComponent,
+    TelephoneInputComponent,
+    FormFieldCustomControlComponent,
+    TelephoneInputComponent
   ],
   imports: [
     BrowserModule,
@@ -55,8 +61,8 @@ import { EmailInputComponent } from './email-input/email-input.component';
     MatInputModule,
     ReactiveFormsModule
   ],
-  entryComponents[EmailInputComponent],
   providers: [TodoDataService],
+  entryComponents: [FormFieldCustomControlComponent, TelephoneInputComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
