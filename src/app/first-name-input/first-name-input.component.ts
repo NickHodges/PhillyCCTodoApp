@@ -1,16 +1,31 @@
-import { Component } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { AbstractControl } from '@angular/forms';
+import { Component, OnInit } from '@angular/core';
+import {
+  FormControl,
+  Validators,
+  ControlContainer,
+  FormGroupDirective
+} from '@angular/forms';
 
-/** @title Form field with error messages */
 @Component({
-  selector: 'app-first-name',
+  selector: 'app-first-name-input',
   templateUrl: 'first-name-input.component.html',
-  styleUrls: ['first-name-input.component.css']
+  styleUrls: ['first-name-input.component.css'],
+  viewProviders: [
+    { provide: ControlContainer, useExisting: FormGroupDirective }
+  ]
 })
-export class FirstNameInputComponent {
-  firstname = new FormControl('', [Validators.required]);
+export class FirstNameInputComponent implements OnInit {
+  firstNameControl: AbstractControl = new FormControl('', Validators.required);
+  constructor(private parent: FormGroupDirective) {}
+
+  ngOnInit() {
+    this.parent.form.addControl('firstNameControl', this.firstNameControl);
+  }
 
   getErrorMessage() {
-    return this.firstname.hasError('required') ? 'You must enter a value' : '';
+    return this.firstNameControl.hasError('required')
+      ? 'You must enter a value'
+      : '';
   }
 }

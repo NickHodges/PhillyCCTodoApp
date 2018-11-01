@@ -1,6 +1,6 @@
 <div class="example-container">
   <mat-form-field>
-    <input matInput placeholder="Phone" type="tel" [formControl]="telephone" required>
-    <mat-error *ngIf="telephone.invalid">{{getErrorMessage()}}</mat-error>
+    <input matInput type="tel" placeholder="Phone" [formControl]="telephoneControl" required>
+    <mat-error *ngIf="telephoneControl.invalid">{{getErrorMessage()}}</mat-error>
   </mat-form-field>
 </div>

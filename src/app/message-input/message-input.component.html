@@ -1,6 +1,6 @@
 <div class="example-container">
   <mat-form-field>
-    <textarea matInput placeholder="Enter your message" [formControl]="themessage" required></textarea>
-    <mat-error *ngIf="themessage.invalid">{{getErrorMessage()}}</mat-error>
+    <textarea matInput placeholder="Enter your message" [formControl]="messageControl" required></textarea>
+    <mat-error *ngIf="messageControl.invalid">{{getErrorMessage()}}</mat-error>
   </mat-form-field>
 </div>

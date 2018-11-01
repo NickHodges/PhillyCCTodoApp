@@ -1,19 +1,35 @@
-import { Component } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { AbstractControl } from '@angular/forms';
+import { Component, OnInit } from '@angular/core';
+import {
+  FormControl,
+  Validators,
+  ControlContainer,
+  FormGroupDirective
+} from '@angular/forms';
 
-/** @title Form field with error messages */
 @Component({
   selector: 'app-email-input',
   templateUrl: 'email-input.component.html',
-  styleUrls: ['email-input.component.css']
+  styleUrls: ['email-input.component.css'],
+  viewProviders: [
+    { provide: ControlContainer, useExisting: FormGroupDirective }
+  ]
 })
-export class EmailInputComponent {
-  email = new FormControl('', [Validators.required, Validators.email]);
+export class EmailInputComponent implements OnInit {
+  emailControl: AbstractControl = new FormControl('', [
+    Validators.required,
+    Validators.email
+  ]);
+  constructor(private parent: FormGroupDirective) {}
+
+  ngOnInit() {
+    this.parent.form.addControl('emailControl', this.emailControl);
+  }
 
   getErrorMessage() {
-    return this.email.hasError('required')
+    return this.emailControl.hasError('required')
       ? 'You must enter a value'
-      : this.email.hasError('email')
+      : this.emailControl.hasError('email')
         ? 'Not a valid email'
         : '';
   }
