@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { NumberValidators } from '../app.validators';
+
 
 @Component({
   selector: 'app-contact-form',

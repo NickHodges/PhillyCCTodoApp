@@ -6,6 +6,7 @@ import {
   ControlContainer,
   FormGroupDirective
 } from '@angular/forms';
+import { NumberValidators } from '../app.validators';
 
 @Component({
   selector: 'app-telephone-input',
@@ -16,7 +17,10 @@ import {
   ]
 })
 export class TelephoneInputComponent implements OnInit {
-  telephoneControl: AbstractControl = new FormControl('', Validators.required);
+  telephoneControl: AbstractControl = new FormControl('', [
+    Validators.required,
+    NumberValidators.phone()
+  ]);
   constructor(private parent: FormGroupDirective) {}
 
   ngOnInit() {
