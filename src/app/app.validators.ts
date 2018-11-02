@@ -4,9 +4,7 @@ export class NumberValidators {
   static phone(): ValidatorFn {
     return (control: AbstractControl): { [key: string]: boolean } | null => {
       if (control.pristine) {
-        return {
-          phone: true
-        };
+        return null;
       }
       const PHONE_REGEXP = /^\(?([0-9]{3})\)?[-.]?([0-9]{3})[-.]?([0-9]{4})$/;
       control.markAsTouched();
