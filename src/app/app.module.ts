@@ -25,14 +25,19 @@ import {
 @NgModule({
   declarations: [
     AppComponent,
+    // Added in Step 3
     AboutComponent,
     TodoListComponent,
     NavbarComponent,
     AllTasksComponent,
-    AddTodoComponent
+    // Added in Step 8
+    AddTodoComponent,
+    // Added in Step 4
+    AllTasksComponent
   ],
   imports: [
     BrowserModule,
+    // Added for Step 5
     RouterModule.forRoot(routes),
     HttpModule,
     HttpClientModule,
@@ -43,6 +48,7 @@ import {
     MatIconModule,
     MatTabsModule
   ],
+  // Added for Step 5
   providers: [TodoDataService],
   bootstrap: [AppComponent]
 })
