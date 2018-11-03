@@ -32,16 +32,22 @@ import { EmailInputComponent } from './email-input/email-input.component';
 @NgModule({
   declarations: [
     AppComponent,
+    // Added in Step 3
     AboutComponent,
     TodoListComponent,
     NavbarComponent,
     AllTasksComponent,
     AddTodoComponent,
     ContactComponent,
-    EmailInputComponent
+    EmailInputComponent,
+    // Added in Step 8
+    AddTodoComponent,
+    // Added in Step 4
+    AllTasksComponent
   ],
   imports: [
     BrowserModule,
+    // Added for Step 5
     RouterModule.forRoot(routes),
     HttpModule,
     HttpClientModule,
@@ -56,6 +62,7 @@ import { EmailInputComponent } from './email-input/email-input.component';
     ReactiveFormsModule
   ],
   entryComponents[EmailInputComponent],
+  // Added for Step 5
   providers: [TodoDataService],
   bootstrap: [AppComponent]
 })
