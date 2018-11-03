@@ -16,11 +16,13 @@ import { Observable } from 'rxjs';
 })
 export class AllTasksComponent implements OnInit, OnChanges {
   constructor(private todoDataService: TodoDataService) {}
+  // Added for Step 6
   allTodos: Observable<Array<Todo>>;
   @Input()
   activated: boolean = false;
 
   ngOnInit() {
+    // Added for Step 6
     this.allTodos = this.todoDataService.getAllTodos();
   }
 
