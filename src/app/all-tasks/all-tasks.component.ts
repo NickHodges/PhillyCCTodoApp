@@ -18,6 +18,7 @@ export class AllTasksComponent implements OnInit, OnChanges {
   constructor(private todoDataService: TodoDataService) {}
   // Added for Step 6
   allTodos: Observable<Array<Todo>>;
+  // Added for Step 14
   @Input()
   activated: boolean = false;
 
@@ -26,6 +27,7 @@ export class AllTasksComponent implements OnInit, OnChanges {
     this.allTodos = this.todoDataService.getAllTodos();
   }
 
+  // Added for Step 14
   ngOnChanges(changes: SimpleChanges) {
     if (this.activated) {
       this.allTodos = this.todoDataService.getAllTodos();
