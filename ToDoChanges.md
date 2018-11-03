@@ -148,7 +148,7 @@
 - update HTML to add an input box when you click on an item
 - Code to update the text of an incomplete todo
 
-# material
+# Step 13
 
 ### Lesson
 
@@ -159,7 +159,7 @@
 - Major changes to HTML and code
 - Update CSS, index.html for material
 
-# OnChange
+# Step 14
 
 ### Lesson
 
@@ -176,3 +176,5 @@
 # ComponentExample
 
 # customvalidators
+* Major changes to HTML and code
+* Update CSS, index.html for material

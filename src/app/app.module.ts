@@ -35,6 +35,7 @@ import { MessageInputComponent } from './message-input/message-input.component';
 @NgModule({
   declarations: [
     AppComponent,
+    // Added in Step 3
     AboutComponent,
     TodoListComponent,
     NavbarComponent,
@@ -45,10 +46,15 @@ import { MessageInputComponent } from './message-input/message-input.component';
     FirstNameInputComponent,
     TelephoneInputComponent,
     LastNameInputComponent,
-    MessageInputComponent
+    MessageInputComponent,
+    // Added in Step 8
+    AddTodoComponent,
+    // Added in Step 4
+    AllTasksComponent
   ],
   imports: [
     BrowserModule,
+    // Added for Step 5
     RouterModule.forRoot(routes),
     HttpModule,
     HttpClientModule,
@@ -62,6 +68,8 @@ import { MessageInputComponent } from './message-input/message-input.component';
     MatInputModule,
     ReactiveFormsModule
   ],
+  entryComponents: [EmailInputComponent],
+  // Added for Step 5
   providers: [TodoDataService],
   bootstrap: [AppComponent]
 })
