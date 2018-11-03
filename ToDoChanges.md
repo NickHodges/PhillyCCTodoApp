@@ -168,3 +168,51 @@
 ### Changes
 
 - Add code to see changes when the tabs change
+- Major changes to HTML and code
+- Update CSS, index.html for material
+
+# Step 15
+
+### Lesson
+
+- Add Contact Form with basic validation
+
+### Changes
+
+- New component for contact form
+- New Contact tab
+- Basic validation of form data
+- onSubmit code to output form data to console
+
+# Step 16
+
+### Lesson
+
+- Build email component with Material Design
+
+### Changes
+
+- Add email component
+- Embed in Contact HTML
+
+# Step 17
+
+### Lesson
+
+- Componentize the entire Contact Form, including Material Design with error messages
+
+### Changes
+
+- Add components for each input
+- update Contact HTML
+
+# Step 18
+
+### Lesson
+
+- Add custom validation
+
+### Changes
+
+- Add phone number validator
+- Use in HTML/code
