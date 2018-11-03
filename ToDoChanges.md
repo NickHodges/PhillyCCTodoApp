@@ -216,3 +216,4 @@
 
 - Add phone number validator
 - Use in HTML/code
+- Disable Submit button if form is not valid
