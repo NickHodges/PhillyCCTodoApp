@@ -30,6 +30,7 @@
       }
     ],
     "no-arg": true,
+    "no-any": true,
     "no-bitwise": true,
     "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
     "no-construct": true,
@@ -40,6 +41,7 @@
     "no-eval": true,
     "no-inferrable-types": [false, "ignore-params"],
     "no-misused-new": true,
+    "no-magic-numbers": true,
     "no-non-null-assertion": true,
     "no-redundant-jsdoc": true,
     "no-shadowed-variable": true,
