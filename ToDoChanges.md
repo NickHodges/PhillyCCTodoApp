@@ -187,7 +187,7 @@
 
 # Step 16
 
-### Lessons
+### Lesson
 
 - Build email component with Material Design
 
@@ -195,3 +195,14 @@
 
 - Add email component
 - Embed in Contact HTML
+
+# Step 17
+
+### Lesson
+
+- Componentize the entire Contact Form, including Material Design with error messages
+
+### Changes
+
+- Add components for each input
+- update Contact HTML
