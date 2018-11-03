@@ -28,7 +28,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { ContactComponent } from './contact-form/contact-form.component';
 import { EmailInputComponent } from './email-input/email-input.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -61,7 +60,7 @@ import { EmailInputComponent } from './email-input/email-input.component';
     MatInputModule,
     ReactiveFormsModule
   ],
-  entryComponents[EmailInputComponent],
+  entryComponents: [EmailInputComponent],
   // Added for Step 5
   providers: [TodoDataService],
   bootstrap: [AppComponent]
