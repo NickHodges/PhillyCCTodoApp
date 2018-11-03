@@ -36,8 +36,6 @@ import { EmailInputComponent } from './email-input/email-input.component';
     AboutComponent,
     TodoListComponent,
     NavbarComponent,
-    AllTasksComponent,
-    AddTodoComponent,
     // Added for Step 15
     ContactComponent,
     EmailInputComponent,
@@ -54,6 +52,7 @@ import { EmailInputComponent } from './email-input/email-input.component';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
+    // Added for Stop 16
     MatButtonModule,
     MatCheckboxModule,
     MatIconModule,
