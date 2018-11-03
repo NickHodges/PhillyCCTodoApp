@@ -27,15 +27,21 @@ import { ContactComponent } from './contact-form/contact-form.component';
 @NgModule({
   declarations: [
     AppComponent,
+    // Added in Step 3
     AboutComponent,
     TodoListComponent,
     NavbarComponent,
     AllTasksComponent,
     AddTodoComponent,
-    ContactComponent
+    ContactComponent,
+    // Added in Step 8
+    AddTodoComponent,
+    // Added in Step 4
+    AllTasksComponent
   ],
   imports: [
     BrowserModule,
+    // Added for Step 5
     RouterModule.forRoot(routes),
     HttpModule,
     HttpClientModule,
@@ -47,6 +53,7 @@ import { ContactComponent } from './contact-form/contact-form.component';
     MatTabsModule,
     ReactiveFormsModule
   ],
+  // Added for Step 5
   providers: [TodoDataService],
   bootstrap: [AppComponent]
 })
