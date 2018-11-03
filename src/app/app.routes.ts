@@ -16,6 +16,7 @@ export const routes = [
     path: 'about',
     component: AboutComponent
   },
+  // New route for Step 15
   {
     path: 'contact',
     component: ContactComponent
