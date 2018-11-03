@@ -52,7 +52,7 @@ import { EmailInputComponent } from './email-input/email-input.component';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
-    // Added for Stop 16
+    // Added for Step 16
     MatButtonModule,
     MatCheckboxModule,
     MatIconModule,
