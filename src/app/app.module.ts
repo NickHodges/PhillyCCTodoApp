@@ -25,6 +25,7 @@ import {
 } from '@angular/material';
 import { MatFormFieldModule } from '@angular/material/form-field';
 
+// Added for Step 15
 import { ContactComponent } from './contact-form/contact-form.component';
 import { EmailInputComponent } from './email-input/email-input.component';
 import { TelephoneInputComponent } from './telephone-input/telephone-input.component';
@@ -39,8 +40,7 @@ import { MessageInputComponent } from './message-input/message-input.component';
     AboutComponent,
     TodoListComponent,
     NavbarComponent,
-    AllTasksComponent,
-    AddTodoComponent,
+    // Added for Step 15
     ContactComponent,
     EmailInputComponent,
     FirstNameInputComponent,
@@ -60,6 +60,7 @@ import { MessageInputComponent } from './message-input/message-input.component';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
+    // Added Material references for Step 16
     MatButtonModule,
     MatCheckboxModule,
     MatIconModule,
