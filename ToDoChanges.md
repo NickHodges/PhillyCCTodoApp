@@ -168,13 +168,3 @@
 ### Changes
 
 - Add code to see changes when the tabs change
-
-# contactform
-
-# materialcontactform
-
-# ComponentExample
-
-# customvalidators
-* Major changes to HTML and code
-* Update CSS, index.html for material
