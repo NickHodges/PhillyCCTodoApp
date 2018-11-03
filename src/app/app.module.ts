@@ -22,6 +22,7 @@ import {
   MatCheckboxModule,
   MatIconModule
 } from '@angular/material';
+// Added for Step 15
 import { ContactComponent } from './contact-form/contact-form.component';
 
 @NgModule({
@@ -33,6 +34,7 @@ import { ContactComponent } from './contact-form/contact-form.component';
     NavbarComponent,
     AllTasksComponent,
     AddTodoComponent,
+    // Added for Step 15
     ContactComponent,
     // Added in Step 8
     AddTodoComponent,
