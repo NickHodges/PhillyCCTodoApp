@@ -171,3 +171,16 @@
 
 * Major changes to HTML and code
 * Update CSS, index.html for material
+
+# Step 15
+
+### Lesson
+
+Add Contact Form with basic validation
+
+### Changes
+
+- New component for contact form
+- New Contact tab
+- Basic validation of form data
+- onSubmit code to output form data to console
