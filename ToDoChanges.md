@@ -176,7 +176,7 @@
 
 ### Lesson
 
-Add Contact Form with basic validation
+- Add Contact Form with basic validation
 
 ### Changes
 
