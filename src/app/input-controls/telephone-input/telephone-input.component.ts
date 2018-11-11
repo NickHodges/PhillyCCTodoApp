@@ -6,7 +6,7 @@ import {
   ControlContainer,
   FormGroupDirective
 } from '@angular/forms';
-import { NumberValidators } from '../app.validators';
+import { NumberValidators } from '../../app.validators';
 
 @Component({
   selector: 'app-telephone-input',

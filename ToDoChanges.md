@@ -217,3 +217,15 @@
 - Add phone number validator
 - Use in HTML/code
 - Disable Submit button if form is not valid
+
+# Step 19
+
+### Lesson
+
+-Refactor to Modules
+
+### Changes
+
+- Add Todo module
+- Add Shared module
+- Added Input module
