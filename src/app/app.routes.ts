@@ -3,6 +3,7 @@ import { AboutComponent } from './about/about.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { AllTasksComponent } from './all-tasks/all-tasks.component';
 import { Routes } from '@angular/router';
+import { Component } from '@angular/core';
 
 export const routes: Routes = [
   {
@@ -14,12 +15,15 @@ export const routes: Routes = [
     component: AllTasksComponent
   },
   {
+    path: 'contact',
+    component: ContactComponent
+  },
+  {
     path: 'about',
     component: AboutComponent
   },
-  // New route for Step 15
   {
-    path: 'contact',
-    component: ContactComponent
+    path: '**',
+    component: TodoListComponent
   }
 ];
