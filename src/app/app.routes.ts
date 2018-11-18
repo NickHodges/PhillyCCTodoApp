@@ -15,6 +15,10 @@ export const routes: Routes = [
     component: AllTasksComponent
   },
   {
+    path: 'contact',
+    component: ContactComponent
+  },
+  {
     path: 'about',
     component: AboutComponent
   },
@@ -22,6 +26,7 @@ export const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
   {
     path: '**',
     component: TodoListComponent
