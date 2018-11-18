@@ -156,6 +156,7 @@
 
 ### Changes
 
+- npm install --save @angular/material @angular/cdk @angular/animations
 - Major changes to HTML and code
 - Update CSS, index.html for material
 
