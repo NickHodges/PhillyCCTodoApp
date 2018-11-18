@@ -14,6 +14,7 @@ export const routes: Routes = [
     path: 'all-tasks',
     component: AllTasksComponent
   },
+  // New route for Step 15
   {
     path: 'contact',
     component: ContactComponent
@@ -21,11 +22,6 @@ export const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent
-  },
-  // New route for Step 15
-  {
-    path: 'contact',
-    component: ContactComponent
   },
   {
     path: '**',
