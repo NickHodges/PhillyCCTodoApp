@@ -1,6 +1,16 @@
 <div class="example-container">
   <mat-form-field>
-    <input matInput type="tel" placeholder="Phone" [formControl]="telephoneControl">
-    <mat-error *ngIf="telephoneControl.invalid">{{getErrorMessage()}}</mat-error>
+    <!-- phonedigitsonly added for Step 20 -->
+    <input
+      matInput
+      phoneDigitsOnly
+      type="tel"
+      maxlength="12"
+      placeholder="Phone: xxx-xxx-xxxx"
+      [formControl]="telephoneControl"
+    />
+    <mat-error *ngIf="telephoneControl.invalid">{{
+      getErrorMessage()
+    }}</mat-error>
   </mat-form-field>
 </div>
