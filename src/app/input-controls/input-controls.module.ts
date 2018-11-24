@@ -17,6 +17,7 @@ import {
   MatInputModule
 } from '@angular/material';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { PhoneCharactersOnlyDirective } from '../app.directives';
 
 @NgModule({
   imports: [
@@ -36,7 +37,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     FirstNameInputComponent,
     LastNameInputComponent,
     MessageInputComponent,
-    TelephoneInputComponent
+    TelephoneInputComponent,
+    // Added for Step 20
+    PhoneCharactersOnlyDirective
   ],
   exports: [
     EmailInputComponent,
