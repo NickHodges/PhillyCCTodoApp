@@ -5,7 +5,8 @@ import { Directive, ElementRef, HostListener } from '@angular/core';
 import { KeyValues } from './app.consts';
 
 @Directive({
-  selector: '[phoneDigitOnly]'
+  // tslint:disable-next-line:directive-selector
+  selector: '[phoneDigitsOnly]'
 })
 export class PhoneCharactersOnlyDirective {
   inputElement: HTMLElement;
@@ -16,8 +17,8 @@ export class PhoneCharactersOnlyDirective {
   @HostListener('keydown', ['$event'])
   onKeyDown(e: KeyboardEvent): void {
     // if CTRL or CMD (Mac) key is down, then let cut/copy/paste through
-    if (e.ctrlKey === true || e.metaKey === true) {
-      if KeyValues.cutPasteKeys.indexOf(e.keyCode) !== -1 {
+    if ((e.ctrlKey === true) || (e.metaKey === true)) {
+      if (KeyValues.cutPasteKeys.indexOf(e.keyCode) !== -1) {
         return;
       }
     }
