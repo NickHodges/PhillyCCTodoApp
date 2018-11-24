@@ -135,7 +135,6 @@
 - Added big red 'X' to delete a Todo item
 - Add `removeTodo` to delete a todo entirely
 
-
 ## Step 12
 
 ### Lesson
