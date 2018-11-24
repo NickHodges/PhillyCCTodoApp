@@ -180,7 +180,6 @@
 - Basic validation of form data
 - onSubmit code to output form data to console
 
-
 ## Step 16
 
 ### Lessons
