@@ -124,7 +124,6 @@
 
 - Add `onclick`
 
-
 ## Step 11
 
 ### Lesson
@@ -135,7 +134,6 @@
 
 - Added big red 'X' to delete a Todo item
 - Add `removeTodo` to delete a todo entirely
-
 
 ## Step 12
 
@@ -148,7 +146,7 @@
 - update HTML to add an input box when you click on an item
 - Code to update the text of an incomplete todo
 
-# Step 13
+## Step 13
 
 ### Lesson
 
