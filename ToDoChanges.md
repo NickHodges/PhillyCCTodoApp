@@ -275,4 +275,3 @@
 
 - update HTML to add an input box when you click on an item
 - Code to update the text of an incomplete todo
-
