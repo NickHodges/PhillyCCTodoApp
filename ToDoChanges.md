@@ -1,4 +1,6 @@
-﻿# Step 1
+﻿# List of changes to the ToDo Application by step
+
+## Step 1
 
 ### Lesson
 
@@ -10,7 +12,7 @@
 - Added title
 - Changed to app.component.html to be basic template
 
-# Step 2
+## Step 2
 
 ### Lesson
 
@@ -18,11 +20,7 @@
 - `npm -g install json-server`
 - Check functionality at `http://localhost:3000`
 
-### Changes
-
-- Added db.json file
-
-# Step 3
+## Step 3
 
 ### Lesson
 
@@ -32,12 +30,12 @@
 ### Changes
 
 - Added NavBar component
-  - Used Bootstrap component to build it
-  - Links are empty at this point
-- update app.module.ts to use NavBarComponent
-  - Put component name in `[declarations]` section
+- Used Bootstrap component to build it
+- Links are empty at this point
+- Update app.module.ts to use NavBarComponent
+- Put component name in `[declarations]` section
 
-# Step 4
+## Step 4
 
 ### Lesson
 
@@ -51,7 +49,7 @@
 - Updated imports in `app.module.ts`
 - Updated `styles.css` to set container styles
 
-# Step 5
+## Step 5
 
 ### Lesson
 
@@ -66,7 +64,7 @@
 - Updated `app.module.ts` for HTTP modules
 - Inject `ToDoDataService`
 
-# Step 6
+## Step 6
 
 ### Lessons
 
@@ -80,7 +78,7 @@
 - Update to the all-tasks component
 - Added `ngIf` and `ngFor` directives
 
-# Step 7
+## Step 7
 
 ### Lessons
 
@@ -91,32 +89,32 @@
 - Added completed/incompleted methods to Todo page and to DataService
 - Updated HTML to display Todos
 
-# Step 8
+## Step 8
 
 ### Lessons
 
 - Add a component to add Todos
 - Display component in Todo checklist page
-- Add `EventEmitter` to notify lists that things have changed
+- Add EventEmitter to notify lists that things have changed
 
 ### Changes
 
-- Added `AddToDoComponent`, with code to input and add
-- Add `EventEmitter`
-- Add `FormsModule` to `NgModule` imports
+- Added AddToDoComponent, with code to input and add
+- Add EventEmitter
+- Add FormsModule to NgModule imports
 
-# Step 9
+## Step 9
 
-### Lesson
+### Lession
 
 - Add ability to mark a Todo as done
 
 ### Changes
 
 - Added checkbox to mark item complete
-- Added `makeComplete` method to update Todo
+- Added makeComplete method to update Todo
 
-# Step 10
+## Step 10
 
 ### Lesson
 
@@ -126,7 +124,7 @@
 
 - Add `onclick`
 
-# Step 11
+## Step 11
 
 ### Lesson
 
@@ -137,7 +135,7 @@
 - Added big red 'X' to delete a Todo item
 - Add `removeTodo` to delete a todo entirely
 
-# Step 12
+## Step 12
 
 ### Lesson
 
@@ -148,7 +146,7 @@
 - update HTML to add an input box when you click on an item
 - Code to update the text of an incomplete todo
 
-# Step 13
+## Step 13
 
 ### Lesson
 
@@ -156,11 +154,10 @@
 
 ### Changes
 
-- npm install --save @angular/material @angular/cdk @angular/animations
 - Major changes to HTML and code
 - Update CSS, index.html for material
 
-# Step 14
+## Step 14
 
 ### Lesson
 
@@ -170,10 +167,7 @@
 
 - Add code to see changes when the tabs change
 
-* Major changes to HTML and code
-* Update CSS, index.html for material
-
-# Step 15
+## Step 15
 
 ### Lesson
 
@@ -186,7 +180,8 @@
 - Basic validation of form data
 - onSubmit code to output form data to console
 
-# Step 16
+
+## Step 16
 
 ### Lessons
 
