@@ -7,7 +7,7 @@ import { KeyValues } from './app.consts';
 @Directive({
   selector: '[phoneDigitOnly]'
 })
-export class DigitOnlyDirective {
+export class PhoneCharactersOnlyDirective {
   inputElement: HTMLElement;
   constructor(public el: ElementRef) {
     this.inputElement = el.nativeElement;
