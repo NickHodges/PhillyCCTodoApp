@@ -230,3 +230,15 @@
 - Add Todo module
 - Add Shared module
 - Added Input module
+
+# Step 20
+
+### Lesson
+
+- Limit input of telephone control to numbers and dashes
+
+### Changes
+
+-- New files -- app.directives.pas and app.consts.ts
+-- added directive unit to limit input text to phone data
+-- Updated HTML to use directive
