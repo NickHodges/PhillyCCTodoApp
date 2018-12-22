@@ -183,8 +183,6 @@
 
 ### Lessons
 
-=======
-
 ### Changes
 
 - Added `todos.ts`
@@ -221,8 +219,6 @@
 
 ### Lesson
 
-> > > > > > > Step11
-
 - Add a component to add Todos
 - Display component in Todo checklist page
 - Add EventEmitter to notify lists that things have changed
@@ -235,7 +231,7 @@
 
 ## Step 9
 
-### Lesson
+### Lession
 
 - Add ability to mark a Todo as done
 
