@@ -56,10 +56,13 @@
 - Add `todo` class
 - Add Todo Service to access API
 - Dependency Injection of services
-  <<<<<<< HEAD
-  =======
-  <<<<<<< HEAD
-  > > > > > > > Step12
+
+### Changes
+
+- Added `todos.ts`
+- Added `todo-data.service.ts`
+- Updated `app.module.ts` for HTTP modules
+- Inject `ToDoDataService`
 
 ### Changes
 
