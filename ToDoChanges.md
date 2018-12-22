@@ -56,10 +56,10 @@
 - Add `todo` class
 - Add Todo Service to access API
 - Dependency Injection of services
-<<<<<<< HEAD
-=======
   <<<<<<< HEAD
->>>>>>> Step12
+  =======
+  <<<<<<< HEAD
+  > > > > > > > Step12
 
 ### Changes
 
@@ -76,7 +76,7 @@
 - Databinding in HTML file
 - Observables
 - async
-<<<<<<< HEAD
+  <<<<<<< HEAD
 
 ### Changes
 
@@ -160,8 +160,7 @@
 ### Changes
 
 - Major changes to HTML and code
-- Update CSS, index.html for material
-=======
+- # Update CSS, index.html for material
 
 ### Changes
 
@@ -271,3 +270,14 @@
 
 - update HTML to add an input box when you click on an item
 - Code to update the text of an incomplete todo
+
+## Step 13
+
+### Lesson
+
+- Use the Angular Material interface
+
+### Changes
+
+- Major changes to HTML and code
+- Update CSS, index.html for material
