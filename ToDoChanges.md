@@ -163,7 +163,7 @@
 ### Changes
 
 - Major changes to HTML and code
-- # Update CSS, index.html for material
+- Update CSS, index.html for material
 
 ### Changes
 
