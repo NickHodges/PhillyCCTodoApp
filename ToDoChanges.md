@@ -218,7 +218,7 @@
 
 ### Lesson
 
--Refactor to Modules
+- Refactor to Modules
 
 ### Changes
 
