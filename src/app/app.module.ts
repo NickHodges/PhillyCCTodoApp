@@ -23,7 +23,6 @@ import {
   MatIconModule,
   MatInputModule
 } from '@angular/material';
-import { MatFormFieldModule } from '@angular/material/form-field';
 
 // Added for Step 15
 import { ContactComponent } from './contact-form/contact-form.component';
@@ -57,7 +56,6 @@ import { EmailInputComponent } from './email-input/email-input.component';
     MatCheckboxModule,
     MatIconModule,
     MatTabsModule,
-    MatFormFieldModule,
     MatInputModule,
     ReactiveFormsModule
   ],
