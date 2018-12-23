@@ -16,6 +16,7 @@ import {
   MatInputModule,
   MatTabsModule
 } from '@angular/material';
+import { PhoneCharactersOnlyDirective } from '../app.directives';
 
 @NgModule({
   imports: [
