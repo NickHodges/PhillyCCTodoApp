@@ -9,12 +9,12 @@ import { TelephoneInputComponent } from './telephone-input/telephone-input.compo
 import { EmailInputComponent } from './email-input/email-input.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTabsModule } from '@angular/material/tabs';
 import {
   MatButtonModule,
   MatCheckboxModule,
   MatIconModule,
-  MatInputModule
+  MatInputModule,
+  MatTabsModule
 } from '@angular/material';
 
 @NgModule({
