@@ -16,7 +16,6 @@ import {
   MatIconModule,
   MatInputModule
 } from '@angular/material';
-import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   imports: [
@@ -28,7 +27,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatCheckboxModule,
     MatIconModule,
     MatTabsModule,
-    MatFormFieldModule,
     MatInputModule
   ],
   declarations: [
