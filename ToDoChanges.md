@@ -161,7 +161,9 @@
 
 ### Lesson
 
-- Notice changes to todo items with Material tab sheet
+- Add a component to add Todos
+- Display component in Todo checklist page
+- Add EventEmitter to notify lists that things have changed
 
 ### Changes
 
@@ -234,6 +236,6 @@
 
 ### Changes
 
--- New files -- app.directives.pas and app.consts.ts
--- added directive unit to limit input text to phone data
--- Updated HTML to use directive
+- New files -- app.directives.pas and app.consts.ts
+- added directive unit to limit input text to phone data
+- Updated HTML to use directive
