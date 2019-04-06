@@ -161,7 +161,9 @@
 
 ### Lesson
 
-- Notice changes to todo items with Material tab sheet
+- Add a component to add Todos
+- Display component in Todo checklist page
+- Add EventEmitter to notify lists that things have changed
 
 ### Changes
 
@@ -213,3 +215,6 @@
 - Add phone number validator
 - Use in HTML/code
 - Disable Submit button if form is not valid
+- Added AddToDoComponent, with code to input and add
+- Add EventEmitter
+- Add FormsModule to NgModule imports
