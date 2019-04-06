@@ -161,7 +161,9 @@
 
 ### Lesson
 
-- Notice changes to todo items with Material tab sheet
+- Add a component to add Todos
+- Display component in Todo checklist page
+- Add EventEmitter to notify lists that things have changed
 
 ### Changes
 
@@ -179,3 +181,6 @@
 - New Contact tab
 - Basic validation of form data
 - onSubmit code to output form data to console
+- Added AddToDoComponent, with code to input and add
+- Add EventEmitter
+- Add FormsModule to NgModule imports
