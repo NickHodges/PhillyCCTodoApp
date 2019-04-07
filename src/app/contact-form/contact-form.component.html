@@ -1,9 +1,8 @@
+<!-- This file added for Step 15  -->
 <form [formGroup]="formModel" (ngSubmit)="onSubmit()" novalidate>
-
   <div class="messages"></div>
 
   <div class="container">
-
     <div class="row">
       <div class="col-md-6">
         <div class="form-group">
@@ -33,15 +32,20 @@
         </div>
       </div>
       <div class="col-md-12">
-        <button type="submit" class="btn btn-success btn-send" value="Send message">Submit</button>
+        <button
+          type="submit"
+          class="btn btn-success btn-send"
+          value="Send message"
+        >
+          Submit
+        </button>
         <button type="reset" class="btn btn-default">Reset</button>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <p class="text-muted"><strong>*</strong> These fields are required. </p>
+        <p class="text-muted"><strong>*</strong> These fields are required.</p>
       </div>
     </div>
   </div>
-
 </form>

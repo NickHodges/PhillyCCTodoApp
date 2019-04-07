@@ -58,6 +58,7 @@ import { MessageInputComponent } from './message-input/message-input.component';
     HttpModule,
     HttpClientModule,
     FormsModule,
+    // Added for Step 13
     BrowserAnimationsModule,
     // Added Material references for Step 16
     MatButtonModule,
