@@ -64,7 +64,6 @@ import { ContactComponent } from './contact-form/contact-form.component';
     ReactiveFormsModule,
     // Added for Step 5
     RouterModule.forRoot(routes),
-    HttpModule,
     HttpClientModule,
     // Added Material references for Step 16
     // Removed them for Step 19
