@@ -55,7 +55,6 @@ import { MessageInputComponent } from './message-input/message-input.component';
     BrowserModule,
     // Added for Step 5
     RouterModule.forRoot(routes),
-    HttpModule,
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
