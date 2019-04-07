@@ -1,3 +1,5 @@
+// This file added for Step 16
+
 import { Component } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 
@@ -14,7 +16,7 @@ export class EmailInputComponent {
     return this.email.hasError('required')
       ? 'You must enter a value'
       : this.email.hasError('email')
-        ? 'Not a valid email'
-        : '';
+      ? 'Not a valid email'
+      : '';
   }
 }
