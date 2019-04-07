@@ -48,6 +48,7 @@ import { ContactComponent } from './contact-form/contact-form.component';
     HttpModule,
     HttpClientModule,
     FormsModule,
+    // Added for Step 13
     BrowserAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,

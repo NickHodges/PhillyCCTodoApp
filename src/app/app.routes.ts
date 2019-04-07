@@ -1,9 +1,9 @@
 import { ContactComponent } from './contact-form/contact-form.component';
+// This file was added in Step 4
 import { AboutComponent } from './about/about.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { AllTasksComponent } from './all-tasks/all-tasks.component';
 import { Routes } from '@angular/router';
-import { Component } from '@angular/core';
 
 export const routes: Routes = [
   {
